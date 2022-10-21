@@ -20,8 +20,8 @@ ckeditor = CKEditor(app)
 # Add Database
 # Old SQLite DB
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ssvixghtdguvjk:b390934477869ac92ef8f3f7612ebaff82740f27c776a35faa1260c4ecdadba1@ec2-54-147-36-107.compute-1.amazonaws.com:5432/d85l6ifl1jsu6'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://fvmdxyjigwbmiu:d31d36c7613e08f7ad37a6e40007189d7f2f44fbc99234b339994780a122d870@ec2-3-214-190-189.compute-1.amazonaws.com:5432/d17b5scj97ckqe'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ssvixghtdguvjk:b390934477869ac92ef8f3f7612ebaff82740f27c776a35faa1260c4ecdadba1@ec2-54-147-36-107.compute-1.amazonaws.com:5432/d85l6ifl1jsu6'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://fvmdxyjigwbmiu:d31d36c7613e08f7ad37a6e40007189d7f2f44fbc99234b339994780a122d870@ec2-3-214-190-189.compute-1.amazonaws.com:5432/d17b5scj97ckqe'
 # New MySQL DB
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@localhost/db_name'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password123@localhost/our_users'
